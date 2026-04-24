@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>⚡ CYBER RADAR SYSTEM ⚡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="green-screen">
+    <div class="terminal-container">
+        <div class="ascii-art">
+            ╔══════════════════════════════════════════════════════════════╗<br>
+            ║   ██████╗██╗   ██╗██████╗ ███████╗██████╗     ██████╗  █████╗ ██████╗  ║<br>
+            ║  ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗    ██╔══██╗██╔══██╗██╔══██╗ ║<br>
+            ║  ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝    ██████╔╝███████║██║  ██║ ║<br>
+            ║  ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗    ██╔══██╗██╔══██║██║  ██║ ║<br>
+            ║  ╚██████╗   ██║   ██████╔╝███████╗██║  ██║    ██║  ██║██║  ██║██████╔╝ ║<br>
+            ║   ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ║<br>
+            ╠══════════════════════════════════════════════════════════════╣<br>
+            ║                   CYBER THREAT RADAR SYSTEM v3.0             ║<br>
+            ║                   🔒 NATIONAL CYBER SECURITY 🔒              ║<br>
+            ╚══════════════════════════════════════════════════════════════╝
+        </div>
+        
+        <div class="status-text">
+            <span class="blink">🟢 SYSTEM ONLINE</span> | STATUS: ACTIVE | THREAT LEVEL: <span id="threat-level">LOW</span>
+        </div>
+        
+        <div class="command-section">
+            <div class="prompt">$ <span id="typed-text"></span><span class="cursor">_</span></div>
+        </div>
+        
+        <div class="go-button-container">
+            <button id="goButton" class="go-btn">
+                <span class="go-text">▶ GO ◀</span>
+                <span class="go-glow"></span>
+            </button>
+        </div>
+        
+        <div class="footer-text">
+            [PRESS 'GO' TO ACTIVATE RADAR SYSTEM] | [CTRL+C] TO EXIT | v3.0.1
+        </div>
+    </div>
+    
+    <audio id="clickSound" preload="auto">
+        <source src="https://www.soundjay.com/misc/sounds/beep-07.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
